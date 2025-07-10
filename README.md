@@ -23,7 +23,7 @@ This research offers several key contributions to the field of multimodal data i
 ![fig2a](./Assets/Figure2a.png)
 
 
-### 📖 Technological Breakthroughs in Cancer Treatment
+### 🧬 Technological Breakthroughs in Cancer Treatment
 
 Following the exploration of deep learning advancements in multimodal cancer research, Figure 2.b highlights the transformative role of imaging and molecular technologies in advancing cancer treatment. These innovations have significantly enhanced our ability to diagnose, characterize, and treat cancer with greater precision, offering new hope for improved patient outcomes.
 
@@ -37,7 +37,7 @@ Together, these breakthroughs underscore the critical role of technology in push
 ![fig2b](./Assets/Figure2b.png)
 
 
-# Comprehensive Multi-Modal Data Repositories
+# 📖 Comprehensive Multi-Modal Data Repositories
 
 A critical foundation for advancing multimodal data integration in cancer research lies in the availability of comprehensive, high-quality data repositories. These repositories provide researchers with access to diverse data types—such as genomics, proteomics, transcriptomics, metabolomics, imaging, and clinical metadata—enabling the development and validation of sophisticated machine learning and foundation models. Table 1 presents a curated list of key multi-modal data repositories that are widely used in oncology. These resources not only support the integration of heterogeneous data but also facilitate the discovery of novel biomarkers, the classification of cancer subtypes, and the personalization of treatment strategies. By leveraging these repositories, researchers can train and validate models that capture the full complexity of cancer biology, ultimately driving the next generation of AI-powered oncology tools.
 
