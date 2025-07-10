@@ -68,7 +68,6 @@ In the era of precision oncology, multi-omics tools and methods are essential fo
     <tr>
       <th align="center">Category</th>
       <th align="center">Tool / Method</th>
-      <th align="center">Web&nbsp;Link</th>
       <th align="center">Applications</th>
     </tr>
   </thead>
@@ -77,27 +76,22 @@ In the era of precision oncology, multi-omics tools and methods are essential fo
   <tbody>
     <tr>
       <td align="center" rowspan="5"><strong>Disease&nbsp;Subtyping</strong></td>
-      <td align="center">SNF</td>
       <td align="center"><a href="https://github.com/maxconway/SNFtool">SNFtool</a></td>
       <td align="center">Integrates multi-omics similarity networks to stratify patients into clinically meaningful subtypes.</td>
     </tr>
     <tr>
-      <td align="center">iClusterPlus</td>
       <td align="center"><a href="https://bioconductor.org/packages/release/bioc/html/iClusterPlus.html">iClusterPlus</a></td>
       <td align="center">Integrative clustering of multiple omics data types for identifying disease subtypes and patient groups.</td>
     </tr>
     <tr>
-      <td align="center">CIMLR</td>
       <td align="center"><a href="https://github.com/danro9685/CIMLR">CIMLR</a></td>
       <td align="center">Consensus clustering of multi-omics data to detect novel subtypes and improve patient stratification.</td>
     </tr>
     <tr>
-      <td align="center">mixOmics&nbsp;(DIABLO)</td>
       <td align="center"><a href="https://mixomics.org/">mixOmics</a></td>
       <td align="center">Multi-omics integration to identify molecular signatures and subtypes, aiding classification and interpretation.</td>
     </tr>
     <tr>
-      <td align="center">MOFA+</td>
       <td align="center"><a href="https://github.com/bioFAM/MOFA2">MOFA2</a></td>
       <td align="center">Latent-factor modelling integrates multi-omics data, revealing shared and unique patterns for subtyping.</td>
     </tr>
@@ -107,32 +101,26 @@ In the era of precision oncology, multi-omics tools and methods are essential fo
   <tbody>
     <tr>
       <td align="center" rowspan="6"><strong>Mechanistic &<br>Pathway Analysis</strong></td>
-      <td align="center">NetICS</td>
       <td align="center"><a href="https://github.com/cbg-ethz/netics">NetICS</a></td>
       <td align="center">Network-based integration of multi-omics data to identify key pathways, drivers and interactions.</td>
     </tr>
     <tr>
-      <td align="center">PARADIGM</td>
       <td align="center"><a href="http://paradigm.five3genomics.com/">PARADIGM</a></td>
       <td align="center">Infers activity levels of biological pathways from integrated omics data for deeper functional insight.</td>
     </tr>
     <tr>
-      <td align="center">PathwayMatcher</td>
       <td align="center"><a href="https://github.com/PathwayAnalysisPlatform/PathwayMatcher">PathwayMatcher</a></td>
       <td align="center">Aligns omics data with known biological pathways for pathway-level interpretation and hypothesis testing.</td>
     </tr>
     <tr>
-      <td align="center">ReactomeGSA</td>
       <td align="center"><a href="https://www.bioconductor.org/packages/release/bioc/html/ReactomeGSA.html">ReactomeGSA</a></td>
       <td align="center">Comparative pathway analysis on multi-omics datasets, yielding insights into disease mechanisms.</td>
     </tr>
     <tr>
-      <td align="center">Anansi</td>
       <td align="center"><a href="https://github.com/thomazbastiaanssen/anansi">Anansi</a></td>
       <td align="center">Integrates multi-omics data with external knowledge bases for enhanced interpretability and mechanistic insight.</td>
     </tr>
     <tr>
-      <td align="center">MOFA+</td>
       <td align="center"><a href="https://github.com/bioFAM/MOFA2">MOFA2</a></td>
       <td align="center">Identifies underlying factors across multiple data layers, providing a systems-level view of disease.</td>
     </tr>
@@ -142,27 +130,22 @@ In the era of precision oncology, multi-omics tools and methods are essential fo
   <tbody>
     <tr>
       <td align="center" rowspan="5"><strong>Biomarker&nbsp;Prediction</strong></td>
-      <td align="center">CNAMet</td>
       <td align="center"><a href="http://csbi.ltdk.helsinki.fi/CNAmet">CNAmet</a></td>
       <td align="center">Correlates genomic and metabolic alterations to discover potential diagnostic/prognostic biomarkers.</td>
     </tr>
     <tr>
-      <td align="center">OmicsPLS</td>
       <td align="center"><a href="https://github.com/selbouhaddani/OmicsPLS">OmicsPLS</a></td>
       <td align="center">Models joint and unique variation between two omics datasets to identify predictive biomarkers.</td>
     </tr>
     <tr>
-      <td align="center">MINT</td>
       <td align="center"><a href="https://mixomics.org/mixmint/">MINT</a></td>
       <td align="center">Integrates multi-omics data across cohorts, enhancing biomarker robustness and generalisation.</td>
     </tr>
     <tr>
-      <td align="center">CustOmics</td>
       <td align="center"><a href="https://github.com/HakimBenkirane/CustOmics">CustOmics</a></td>
       <td align="center">Deep-learning framework for classification and survival analysis, ensuring robust biomarker discovery.</td>
     </tr>
     <tr>
-      <td align="center">Harmony</td>
       <td align="center"><a href="https://github.com/immunogenomics/harmony">Harmony</a></td>
       <td align="center">Resolves batch effects in multi-omics data, improving consistency and enabling biomarker discovery.</td>
     </tr>
@@ -173,6 +156,18 @@ In the era of precision oncology, multi-omics tools and methods are essential fo
 
 ---
 
+### 📚 Taxonomy of Foundation Models in Multimodal Cancer Research
+
+A clear conceptual map helps position existing work and guide future model design.  
+Figure below groups today’s foundation models into four complementary domains:
+
+1. **Unimodal Omics FMs** – large language/transformer models trained on genomic, transcriptomic, or single-cell data (e.g., scGPT, GenePT).  
+2. **Unimodal Pathology FMs** – vision or vision-language backbones for WSI tiles (e.g., UNI, PLUTO, CTransPath).  
+3. **Unimodal Radiology FMs** – volumetric vision models for CT/MRI/PET (e.g., SAM-Med, CT-CLIP, Google CT-FM).  
+4. **Cross-Domain Integrative FMs** – architectures explicitly built to ingest and align two + modalities (e.g., TMO-Net, MolFM, Path-GPTOmic).
+
+![fig5](./Assets/Figure5.png)
+---
 
 ## Citation
 If you use this framework, please cite our work:
