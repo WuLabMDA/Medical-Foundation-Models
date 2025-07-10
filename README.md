@@ -167,7 +167,7 @@ Figure below groups today’s foundation models into four complementary domains:
 4. **Cross-Domain Integrative FMs** – architectures explicitly built to ingest and align two + modalities (e.g., TMO-Net, MolFM, Path-GPTOmic).
 
 ![fig5](./Assets/Figure5.png)
----
+
 
 ## Citation
 If you use this framework, please cite our work:
