@@ -37,13 +37,10 @@ Together, these breakthroughs underscore the critical role of technology in push
 ![fig2b](./Assets/Figure2b.png)
 
 
-# 📖 Comprehensive Multi-Modal Data Repositories
+### 📖 Comprehensive Multi-Modal Data Repositories
 
 A critical foundation for advancing multimodal data integration in cancer research lies in the availability of comprehensive, high-quality data repositories. These repositories provide researchers with access to diverse data types—such as genomics, proteomics, transcriptomics, metabolomics, imaging, and clinical metadata—enabling the development and validation of sophisticated machine learning and foundation models. Table 1 presents a curated list of key multi-modal data repositories that are widely used in oncology. These resources not only support the integration of heterogeneous data but also facilitate the discovery of novel biomarkers, the classification of cancer subtypes, and the personalization of treatment strategies. By leveraging these repositories, researchers can train and validate models that capture the full complexity of cancer biology, ultimately driving the next generation of AI-powered oncology tools.
 
----
-
-### 📚 Comprehensive Multi-Modal Data Repositories
 
 | **Repository**            | **Description**                                                                 | **Data Types**                              | **Cancer Types**                              | **Website**                          |
 |---------------------------|---------------------------------------------------------------------------------|---------------------------------------------|-----------------------------------------------|--------------------------------------|
@@ -60,112 +57,119 @@ A critical foundation for advancing multimodal data integration in cancer resear
 
 ---
 
-# Multi-Omics Tools and Methods for Cancer Research
+### 💻 Multi-Omics Tools and Methods for Cancer Research
 
 In the era of precision oncology, multi-omics tools and methods are essential for integrating and analyzing complex biological data from genomics, transcriptomics, proteomics, and other omics layers. These tools enable researchers to uncover hidden patterns, identify biomarkers, and develop predictive models that enhance cancer diagnosis, prognosis, and treatment. Table 2 presents a curated list of leading multi-omics tools and methods, categorized by their primary applications in disease subtyping, mechanistic and pathway analysis, and biomarker prediction. Each tool is accompanied by a brief description of its applications and a link to its official resource for further exploration. These resources are invaluable for advancing multimodal data integration and driving innovation in cancer research.
 
----
-
-### 💻 Multi-Omics Tools and Methods
+<div align="center">
 
 <table>
   <thead>
     <tr>
-      <th>Category</th>
-      <th>Tool/Method</th>
-      <th>Web Link</th>
-      <th>Applications</th>
+      <th align="center">Category</th>
+      <th align="center">Tool / Method</th>
+      <th align="center">Web&nbsp;Link</th>
+      <th align="center">Applications</th>
     </tr>
   </thead>
+
+  <!-- Disease Subtyping -->
   <tbody>
-    <!-- Disease Subtyping -->
     <tr>
-      <td rowspan="5">Disease Subtyping</td>
-      <td>SNF</td>
-      <td><a href="https://github.com/maxconway/SNFtool">SNFtool</a></td>
-      <td>Integrates multi-omics similarity networks to stratify patients into clinically meaningful subtypes in cancer and other diseases.</td>
+      <td align="center" rowspan="5"><strong>Disease&nbsp;Subtyping</strong></td>
+      <td align="center">SNF</td>
+      <td align="center"><a href="https://github.com/maxconway/SNFtool">SNFtool</a></td>
+      <td align="center">Integrates multi-omics similarity networks to stratify patients into clinically meaningful subtypes.</td>
     </tr>
     <tr>
-      <td>iClusterPlus</td>
-      <td><a href="https://bioconductor.org/packages/release/bioc/html/iClusterPlus.html">iClusterPlus</a></td>
-      <td>Integrative clustering of multiple omics data types for identifying distinct disease subtypes and patient groups.</td>
+      <td align="center">iClusterPlus</td>
+      <td align="center"><a href="https://bioconductor.org/packages/release/bioc/html/iClusterPlus.html">iClusterPlus</a></td>
+      <td align="center">Integrative clustering of multiple omics data types for identifying disease subtypes and patient groups.</td>
     </tr>
     <tr>
-      <td>CIMLR</td>
-      <td><a href="https://github.com/danro9685/CIMLR">CIMLR</a></td>
-      <td>Consensus clustering of multi-omics data to detect novel disease subtypes and improve patient stratification.</td>
+      <td align="center">CIMLR</td>
+      <td align="center"><a href="https://github.com/danro9685/CIMLR">CIMLR</a></td>
+      <td align="center">Consensus clustering of multi-omics data to detect novel subtypes and improve patient stratification.</td>
     </tr>
     <tr>
-      <td>mixOmics (DIABLO)</td>
-      <td><a href="https://mixomics.org/">mixOmics</a></td>
-      <td>Multi-omics integration to identify molecular signatures and subtypes, aiding classification and functional interpretation.</td>
+      <td align="center">mixOmics&nbsp;(DIABLO)</td>
+      <td align="center"><a href="https://mixomics.org/">mixOmics</a></td>
+      <td align="center">Multi-omics integration to identify molecular signatures and subtypes, aiding classification and interpretation.</td>
     </tr>
     <tr>
-      <td>MOFA+</td>
-      <td><a href="https://github.com/bioFAM/MOFA2">MOFA2</a></td>
-      <td>Latent factor modeling integrates multi-omics data, revealing shared and unique patterns that inform disease subtyping.</td>
-    </tr>
-    <!-- Mechanistic & Pathway Analysis -->
-    <tr>
-      <td rowspan="6">Mechanistic & Pathway Analysis</td>
-      <td>NetICS</td>
-      <td><a href="https://github.com/cbg-ethz/netics">NetICS</a></td>
-      <td>Integrates multi-omics data via networks to identify key pathways, drivers, and interactions underlying disease.</td>
-    </tr>
-    <tr>
-      <td>PARADIGM</td>
-      <td><a href="http://paradigm.five3genomics.com/">PARADIGM</a></td>
-      <td>Infers activity levels of biological pathways from integrated omics data, providing deeper functional insights.</td>
-    </tr>
-    <tr>
-      <td>PathwayMatcher</td>
-      <td><a href="https://github.com/PathwayAnalysisPlatform/PathwayMatcher">PathwayMatcher</a></td>
-      <td>Aligns omics data with known biological pathways, aiding in pathway-level interpretation and hypothesis testing.</td>
-    </tr>
-    <tr>
-      <td>ReactomeGSA</td>
-      <td><a href="https://www.bioconductor.org/packages/release/bioc/html/ReactomeGSA.html">ReactomeGSA</a></td>
-      <td>Performs comparative pathway analysis on multi-omics datasets, yielding insights into disease-related mechanisms.</td>
-    </tr>
-    <tr>
-      <td>Anansi</td>
-      <td><a href="https://github.com/thomazbastiaanssen/anansi">Anansi</a></td>
-      <td>Integrates multi-omics data with external knowledge bases for enhanced interpretability and mechanistic insights.</td>
-    </tr>
-    <tr>
-      <td>MOFA+</td>
-      <td><a href="https://github.com/bioFAM/MOFA2">MOFA2</a></td>
-      <td>Identifies underlying factors across multiple data layers, providing a systems-level understanding of disease.</td>
-    </tr>
-    <!-- Biomarker Prediction -->
-    <tr>
-      <td rowspan="5">Biomarker Prediction</td>
-      <td>CNAMet</td>
-      <td><a href="http://csbi.ltdk.helsinki.fi/CNAmet">CNAmet</a></td>
-      <td>Correlates genomic and metabolic alterations to discover potential biomarkers for diagnosis/prognosis.</td>
-    </tr>
-    <tr>
-      <td>OmicsPLS</td>
-      <td><a href="https://github.com/selbouhaddani/OmicsPLS">OmicsPLS</a></td>
-      <td>Identifies predictive biomarkers by modeling joint and unique variation between two omics datasets.</td>
-    </tr>
-    <tr>
-      <td>MINT</td>
-      <td><a href="https://mixomics.org/mixmint/">MINT</a></td>
-      <td>Integrates multi-omics data across cohorts, enhancing biomarker robustness and generalization.</td>
-    </tr>
-    <tr>
-      <td>CustOmics</td>
-      <td><a href="https://github.com/HakimBenkirane/CustOmics">CustOmics</a></td>
-      <td>Leverages deep learning for classification and survival analysis, ensuring robust biomarker identification.</td>
-    </tr>
-    <tr>
-      <td>Harmony</td>
-      <td><a href="https://github.com/immunogenomics/harmony">Harmony</a></td>
-      <td>Resolves batch effects in multi-omics data, improving consistency and enabling biomarker discovery.</td>
+      <td align="center">MOFA+</td>
+      <td align="center"><a href="https://github.com/bioFAM/MOFA2">MOFA2</a></td>
+      <td align="center">Latent-factor modelling integrates multi-omics data, revealing shared and unique patterns for subtyping.</td>
     </tr>
   </tbody>
-</table>           
+
+  <!-- Mechanistic & Pathway Analysis -->
+  <tbody>
+    <tr>
+      <td align="center" rowspan="6"><strong>Mechanistic &<br>Pathway Analysis</strong></td>
+      <td align="center">NetICS</td>
+      <td align="center"><a href="https://github.com/cbg-ethz/netics">NetICS</a></td>
+      <td align="center">Network-based integration of multi-omics data to identify key pathways, drivers and interactions.</td>
+    </tr>
+    <tr>
+      <td align="center">PARADIGM</td>
+      <td align="center"><a href="http://paradigm.five3genomics.com/">PARADIGM</a></td>
+      <td align="center">Infers activity levels of biological pathways from integrated omics data for deeper functional insight.</td>
+    </tr>
+    <tr>
+      <td align="center">PathwayMatcher</td>
+      <td align="center"><a href="https://github.com/PathwayAnalysisPlatform/PathwayMatcher">PathwayMatcher</a></td>
+      <td align="center">Aligns omics data with known biological pathways for pathway-level interpretation and hypothesis testing.</td>
+    </tr>
+    <tr>
+      <td align="center">ReactomeGSA</td>
+      <td align="center"><a href="https://www.bioconductor.org/packages/release/bioc/html/ReactomeGSA.html">ReactomeGSA</a></td>
+      <td align="center">Comparative pathway analysis on multi-omics datasets, yielding insights into disease mechanisms.</td>
+    </tr>
+    <tr>
+      <td align="center">Anansi</td>
+      <td align="center"><a href="https://github.com/thomazbastiaanssen/anansi">Anansi</a></td>
+      <td align="center">Integrates multi-omics data with external knowledge bases for enhanced interpretability and mechanistic insight.</td>
+    </tr>
+    <tr>
+      <td align="center">MOFA+</td>
+      <td align="center"><a href="https://github.com/bioFAM/MOFA2">MOFA2</a></td>
+      <td align="center">Identifies underlying factors across multiple data layers, providing a systems-level view of disease.</td>
+    </tr>
+  </tbody>
+
+  <!-- Biomarker Prediction -->
+  <tbody>
+    <tr>
+      <td align="center" rowspan="5"><strong>Biomarker&nbsp;Prediction</strong></td>
+      <td align="center">CNAMet</td>
+      <td align="center"><a href="http://csbi.ltdk.helsinki.fi/CNAmet">CNAmet</a></td>
+      <td align="center">Correlates genomic and metabolic alterations to discover potential diagnostic/prognostic biomarkers.</td>
+    </tr>
+    <tr>
+      <td align="center">OmicsPLS</td>
+      <td align="center"><a href="https://github.com/selbouhaddani/OmicsPLS">OmicsPLS</a></td>
+      <td align="center">Models joint and unique variation between two omics datasets to identify predictive biomarkers.</td>
+    </tr>
+    <tr>
+      <td align="center">MINT</td>
+      <td align="center"><a href="https://mixomics.org/mixmint/">MINT</a></td>
+      <td align="center">Integrates multi-omics data across cohorts, enhancing biomarker robustness and generalisation.</td>
+    </tr>
+    <tr>
+      <td align="center">CustOmics</td>
+      <td align="center"><a href="https://github.com/HakimBenkirane/CustOmics">CustOmics</a></td>
+      <td align="center">Deep-learning framework for classification and survival analysis, ensuring robust biomarker discovery.</td>
+    </tr>
+    <tr>
+      <td align="center">Harmony</td>
+      <td align="center"><a href="https://github.com/immunogenomics/harmony">Harmony</a></td>
+      <td align="center">Resolves batch effects in multi-omics data, improving consistency and enabling biomarker discovery.</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ---
 
