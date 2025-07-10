@@ -165,7 +165,7 @@ In the era of precision oncology, multi-omics tools and methods are essential fo
       <td>Resolves batch effects in multi-omics data, improving consistency and enabling biomarker discovery.</td>
     </tr>
   </tbody>
-</table>                             |
+</table>           
 
 ---
 
