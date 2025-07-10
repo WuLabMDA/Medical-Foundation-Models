@@ -68,24 +68,104 @@ In the era of precision oncology, multi-omics tools and methods are essential fo
 
 ### 💻 Multi-Omics Tools and Methods
 
-| **Category**                          | **Tool/Method**   | **Web Link**                                                                 | **Applications**                                                                                                                  |
-|---------------------------------------|-------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **Disease Subtyping**                 | SNF               | [SNFtool](https://github.com/maxconway/SNFtool)                             | Integrates multi-omics similarity networks to stratify patients into clinically meaningful subtypes in cancer and other diseases. |
-|                                       | iClusterPlus      | [iClusterPlus](https://bioconductor.org/packages/release/bioc/html/iClusterPlus.html) | Integrative clustering of multiple omics data types for identifying distinct disease subtypes and patient groups.                 |
-|                                       | CIMLR             | [CIMLR](https://github.com/danro9685/CIMLR)                                 | Consensus clustering of multi-omics data to detect novel disease subtypes and improve patient stratification.                      |
-|                                       | mixOmics (DIABLO) | [mixOmics](https://mixomics.org/)                                           | Multi-omics integration to identify molecular signatures and subtypes, aiding classification and functional interpretation.       |
-|                                       | MOFA+             | [MOFA2](https://github.com/bioFAM/MOFA2)                                    | Latent factor modeling integrates multi-omics data, revealing shared and unique patterns that inform disease subtyping.           |
-| **Mechanistic & Pathway Analysis**    | NetICS            | [NetICS](https://github.com/cbg-ethz/netics)                                | Integrates multi-omics data via networks to identify key pathways, drivers, and interactions underlying disease.                  |
-|                                       | PARADIGM          | [PARADIGM](http://paradigm.five3genomics.com/)                              | Infers activity levels of biological pathways from integrated omics data, providing deeper functional insights.                   |
-|                                       | PathwayMatcher    | [PathwayMatcher](https://github.com/PathwayAnalysisPlatform/PathwayMatcher) | Aligns omics data with known biological pathways, aiding in pathway-level interpretation and hypothesis testing.                  |
-|                                       | ReactomeGSA       | [ReactomeGSA](https://www.bioconductor.org/packages/release/bioc/html/ReactomeGSA.html) | Performs comparative pathway analysis on multi-omics datasets, yielding insights into disease-related mechanisms.                 |
-|                                       | Anansi            | [Anansi](https://github.com/thomazbastiaanssen/anansi)                      | Integrates multi-omics data with external knowledge bases for enhanced interpretability and mechanistic insights.                 |
-|                                       | MOFA+             | [MOFA2](https://github.com/bioFAM/MOFA2)                                    | Identifies underlying factors across multiple data layers, providing a systems-level understanding of disease.                    |
-| **Biomarker Prediction**              | CNAMet            | [CNAmet](http://csbi.ltdk.helsinki.fi/CNAmet)                               | Correlates genomic and metabolic alterations to discover potential biomarkers for diagnosis/prognosis.                            |
-|                                       | OmicsPLS          | [OmicsPLS](https://github.com/selbouhaddani/OmicsPLS)                       | Identifies predictive biomarkers by modeling joint and unique variation between two omics datasets.                               |
-|                                       | MINT              | [MINT](https://mixomics.org/mixmint/)                                       | Integrates multi-omics data across cohorts, enhancing biomarker robustness and generalization.                                    |
-|                                       | CustOmics         | [CustOmics](https://github.com/HakimBenkirane/CustOmics)                    | Leverages deep learning for classification and survival analysis, identifying robust biomarkers.                                  |
-|                                       | Harmony           | [Harmony](https://github.com/immunogenomics/harmony)                        | Resolves batch effects in multi-omics data, improving consistency and enabling biomarker discovery.                               |
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Tool/Method</th>
+      <th>Web Link</th>
+      <th>Applications</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Disease Subtyping -->
+    <tr>
+      <td rowspan="5">Disease Subtyping</td>
+      <td>SNF</td>
+      <td><a href="https://github.com/maxconway/SNFtool">SNFtool</a></td>
+      <td>Integrates multi-omics similarity networks to stratify patients into clinically meaningful subtypes in cancer and other diseases.</td>
+    </tr>
+    <tr>
+      <td>iClusterPlus</td>
+      <td><a href="https://bioconductor.org/packages/release/bioc/html/iClusterPlus.html">iClusterPlus</a></td>
+      <td>Integrative clustering of multiple omics data types for identifying distinct disease subtypes and patient groups.</td>
+    </tr>
+    <tr>
+      <td>CIMLR</td>
+      <td><a href="https://github.com/danro9685/CIMLR">CIMLR</a></td>
+      <td>Consensus clustering of multi-omics data to detect novel disease subtypes and improve patient stratification.</td>
+    </tr>
+    <tr>
+      <td>mixOmics (DIABLO)</td>
+      <td><a href="https://mixomics.org/">mixOmics</a></td>
+      <td>Multi-omics integration to identify molecular signatures and subtypes, aiding classification and functional interpretation.</td>
+    </tr>
+    <tr>
+      <td>MOFA+</td>
+      <td><a href="https://github.com/bioFAM/MOFA2">MOFA2</a></td>
+      <td>Latent factor modeling integrates multi-omics data, revealing shared and unique patterns that inform disease subtyping.</td>
+    </tr>
+    <!-- Mechanistic & Pathway Analysis -->
+    <tr>
+      <td rowspan="6">Mechanistic & Pathway Analysis</td>
+      <td>NetICS</td>
+      <td><a href="https://github.com/cbg-ethz/netics">NetICS</a></td>
+      <td>Integrates multi-omics data via networks to identify key pathways, drivers, and interactions underlying disease.</td>
+    </tr>
+    <tr>
+      <td>PARADIGM</td>
+      <td><a href="http://paradigm.five3genomics.com/">PARADIGM</a></td>
+      <td>Infers activity levels of biological pathways from integrated omics data, providing deeper functional insights.</td>
+    </tr>
+    <tr>
+      <td>PathwayMatcher</td>
+      <td><a href="https://github.com/PathwayAnalysisPlatform/PathwayMatcher">PathwayMatcher</a></td>
+      <td>Aligns omics data with known biological pathways, aiding in pathway-level interpretation and hypothesis testing.</td>
+    </tr>
+    <tr>
+      <td>ReactomeGSA</td>
+      <td><a href="https://www.bioconductor.org/packages/release/bioc/html/ReactomeGSA.html">ReactomeGSA</a></td>
+      <td>Performs comparative pathway analysis on multi-omics datasets, yielding insights into disease-related mechanisms.</td>
+    </tr>
+    <tr>
+      <td>Anansi</td>
+      <td><a href="https://github.com/thomazbastiaanssen/anansi">Anansi</a></td>
+      <td>Integrates multi-omics data with external knowledge bases for enhanced interpretability and mechanistic insights.</td>
+    </tr>
+    <tr>
+      <td>MOFA+</td>
+      <td><a href="https://github.com/bioFAM/MOFA2">MOFA2</a></td>
+      <td>Identifies underlying factors across multiple data layers, providing a systems-level understanding of disease.</td>
+    </tr>
+    <!-- Biomarker Prediction -->
+    <tr>
+      <td rowspan="5">Biomarker Prediction</td>
+      <td>CNAMet</td>
+      <td><a href="http://csbi.ltdk.helsinki.fi/CNAmet">CNAmet</a></td>
+      <td>Correlates genomic and metabolic alterations to discover potential biomarkers for diagnosis/prognosis.</td>
+    </tr>
+    <tr>
+      <td>OmicsPLS</td>
+      <td><a href="https://github.com/selbouhaddani/OmicsPLS">OmicsPLS</a></td>
+      <td>Identifies predictive biomarkers by modeling joint and unique variation between two omics datasets.</td>
+    </tr>
+    <tr>
+      <td>MINT</td>
+      <td><a href="https://mixomics.org/mixmint/">MINT</a></td>
+      <td>Integrates multi-omics data across cohorts, enhancing biomarker robustness and generalization.</td>
+    </tr>
+    <tr>
+      <td>CustOmics</td>
+      <td><a href="https://github.com/HakimBenkirane/CustOmics">CustOmics</a></td>
+      <td>Leverages deep learning for classification and survival analysis, ensuring robust biomarker identification.</td>
+    </tr>
+    <tr>
+      <td>Harmony</td>
+      <td><a href="https://github.com/immunogenomics/harmony">Harmony</a></td>
+      <td>Resolves batch effects in multi-omics data, improving consistency and enabling biomarker discovery.</td>
+    </tr>
+  </tbody>
+</table>                             |
 
 ---
 
