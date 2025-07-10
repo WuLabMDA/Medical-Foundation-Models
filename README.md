@@ -161,10 +161,10 @@ In the era of precision oncology, multi-omics tools and methods are essential fo
 A clear conceptual map helps position existing work and guide future model design.  
 Figure below groups today’s foundation models into four complementary domains:
 
-1. **Unimodal Omics FMs** – large language/transformer models trained on genomic, transcriptomic, or single-cell data (e.g., scGPT, GenePT).  
-2. **Unimodal Pathology FMs** – vision or vision-language backbones for WSI tiles (e.g., UNI, PLUTO, CTransPath).  
-3. **Unimodal Radiology FMs** – volumetric vision models for CT/MRI/PET (e.g., SAM-Med, CT-CLIP, Google CT-FM).  
-4. **Cross-Domain Integrative FMs** – architectures explicitly built to ingest and align two + modalities (e.g., TMO-Net, MolFM, Path-GPTOmic).
+1. **Omics FMs** – large language/transformer models trained on genomic, transcriptomic, or single-cell data (e.g., MO-Net, MolFM, scGPT, GenePT, Path-GPTOmic).  
+2. **Pathology FMs** – vision or vision-language backbones for WSI tiles (e.g., UNI, PLUTO, CTransPath, GigaPath).  
+3. **Radiology FMs** – volumetric vision models for CT/MRI/PET (e.g., SAM-Med, CT-CLIP, Google CT-FM).  
+4. **Cross-Domain Integrative FMs** – architectures explicitly built to ingest and align two + modalities (e.g., SAM, REMEDIS).
 
 ![fig5](./Assets/Figure5.png)
 
