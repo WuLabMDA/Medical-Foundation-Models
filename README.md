@@ -173,13 +173,14 @@ Figure below groups today’s foundation models into four complementary domains:
 If you use this framework, please cite our work:
 
 ```bibtex
-@misc{muneer2025classicalmachinelearningemerging,
-      title={From Classical Machine Learning to Emerging Foundation Models: Review on Multimodal Data Integration for Cancer Research}, 
-      author={Amgad Muneer and Muhammad Waqas and Maliazurina B Saad and Eman Showkatian and Rukhmini Bandyopadhyay and Hui Xu and Wentao Li and Joe Y Chang and Zhongxing Liao and Cara Haymaker and Luisa Solis Soto and Carol C Wu and Natalie I Vokes and Xiuning Le and Lauren A Byers and Don L Gibbons and John V Heymach and Jianjun Zhang and Jia Wu},
-      year={2025},
-      eprint={2507.09028},
-      archivePrefix={arXiv},
-      primaryClass={q-bio.QM},
-      url={https://arxiv.org/abs/2507.09028}, 
+@article{muneer2026classical,
+  title={From classical machine learning to emerging foundation models: review on multimodal data integration for cancer research},
+  author={Muneer, Amgad and Waqas, Muhammad and Saad, Maliazurina B and Showkatian, Eman and Bandyopadhyay, Rukhmini and others},
+  journal={Artificial Intelligence Review},
+  year={2026},
+  volume={59},
+  number={119},
+  doi={10.1007/s10462-026-11522-9},
+  url={https://doi.org/10.1007/s10462-026-11522-9}
 }
 ```
